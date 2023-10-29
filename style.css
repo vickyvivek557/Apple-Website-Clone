@@ -21,3 +21,27 @@ nav{
 nav>div{
     color: white;
 }
+
+#landing1{
+    height: 116px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color:aquamarine; */
+}
+#landing1>div{
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: brown; */
+}
+#landing1>div>a{
+    text-decoration: none;
+    color: black;
+}
+
+#landing1 p {
+    color: red;
+}
